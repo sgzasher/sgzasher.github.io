@@ -24,7 +24,7 @@ author:
   avatar           : "profile_image_close.jpg"
   name             : "Samuel G.Z. Asher"
   pronouns         : # example: "she/her"  
-  bio              : #"I am a Ph.D. student in Political Economy at the Stanford Graduate School of Business"
+  bio              : "" #"I am a Ph.D. student in Political Economy at the Stanford Graduate School of Business"
   location         : "Stanford, CA"
   employer         : #"Red Brick University"
   uri              : # URL
