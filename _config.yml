@@ -21,7 +21,7 @@ repository               : "sgzasher/sgzasher.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_image_close.png"
+  avatar           : "profile_image_close.jpg"
   name             : "Samuel G.Z. Asher"
   pronouns         : # example: "she/her"  
   bio              : "I am a Ph.D. student in Political Economy at the Stanford Graduate School of Business"
