@@ -9,7 +9,7 @@ redirect_from:
 
 ![headline-image](/images/positive_political_economy.jpeg)
 
-I am a PhD student in Political Economy at the Stanford Graduate School of Business. I study political methodology and American politics, focusing on local and historical political economy. 
+I am a PhD student in Political Economy at the Stanford Graduate School of Business. I study political methodology and American politics, focusing on causal inference local political economy. 
 
 <!--- 
 My methodological work 
