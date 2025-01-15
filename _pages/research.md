@@ -15,8 +15,8 @@ author_profile: true
 }
 .abstract-toggle {
   display: inline-block;
-  margin-left: 10px;
-  font-size: 0.8em;
+  margin-top: 0.3em;
+  font-size: 0.7em;
   padding: 0 5px;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
@@ -24,6 +24,7 @@ author_profile: true
   cursor: pointer;
 }
 .coauthors {
+  display: block;
   font-size: 0.9em;
   font-style: italic;
   margin-left: 10px;
