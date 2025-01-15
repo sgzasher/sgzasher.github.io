@@ -17,7 +17,7 @@ author_profile: true
   .page__content h4 {
     margin-top: 1em;
     margin-bottom: 0.5em;
-    font-size: 1.2em;  /* Adjust this value as needed */
+    font-size: 1.5em;  /* Adjust this value as needed */
   }
   details {
     margin-top: 0.5em;
@@ -25,7 +25,7 @@ author_profile: true
   }
   summary {
     cursor: pointer;
-    font-weight: bold;
+    font-weight: italic;
     font-size: 0.9em;  /* Make the abstract button smaller */
   }
   details p {
