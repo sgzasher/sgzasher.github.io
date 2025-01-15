@@ -6,27 +6,16 @@ author_profile: true
 ---
 
 <style>
-:root {
-  --base-font-size: 0.9rem;
+.paper {
+  margin-bottom: 1em;
 }
-
-.page-content,
-.post-content,
-#main-content {
-  font-size: var(--base-font-size);
-}
-
-h1 { font-size: 1.6em; }
-h2 { font-size: 1.4em; }
-h3 { font-size: 1.2em; }
-
 .paper-title {
   font-weight: bold;
-  display: block;
+  font-size: 1em;
 }
 .abstract-toggle {
   display: inline-block;
-  margin-top: 0.3em;
+  margin-left: 10px;
   font-size: 0.8em;
   padding: 0 5px;
   background-color: #f0f0f0;
@@ -35,17 +24,16 @@ h3 { font-size: 1.2em; }
   cursor: pointer;
 }
 .coauthors {
-  display: block;
   font-size: 0.9em;
   font-style: italic;
-  margin-top: 0.3em;
+  margin-left: 10px;
 }
 .abstract {
   display: none;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 0.9em;
-  padding-left: 1em;
+  padding-left: 20px;
 }
 .abstract-checkbox {
   display: none;
@@ -55,9 +43,9 @@ h3 { font-size: 1.2em; }
 }
 </style>
 
-# Work In Progress
+## Work In Progress
 
-## Methodology
+### Methodology
 
 <div class="paper">
   <span class="paper-title">Automatic Partial Identification of Direct Effects under Conditional Unconfoundedness</span>
@@ -67,8 +55,6 @@ h3 { font-size: 1.2em; }
     This paper develops a practical and performant algorithm for estimating sharp bounds on principal strata direct effects. I extend work on attrition problems to provide a nonparametric estimator under conditional unconfoundedness and monotonicity, more tenable assumptions than needed in popular methods for direct effect estimation. The estimator learns nuisance parameters via random forests and then learns the debiasing correction terms directly via a neural network. This approach blends the advantages of kernel-based quantile regression methods while improving finite-sample performance relative to plug-in estimation of the correction terms. I demonstrate the performance of the algorithm in simulations and apply the bounds to revisit canonical mediation problems in political science.
   </div>
 </div>
-
-<!-- Rest of your content remains the same -->
 
 <div class="paper">
   <span class="paper-title">Trajectory Balancing: A General Reweighting Approach to Causal Inference with Time-Series Cross-Sectional Data</span>
@@ -80,7 +66,7 @@ h3 { font-size: 1.2em; }
   <span class="coauthors">with Ye Wang and Yiqing Xu</span>
 </div>
 
-## Local Political Economy
+### Local Political Economy
 
 <div class="paper">
   <span class="paper-title">Local Institutions and the Geographic Distribution of Public Goods: Evidence from Streetview</span>
