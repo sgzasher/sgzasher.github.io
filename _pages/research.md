@@ -6,32 +6,34 @@ author_profile: true
 ---
 
 <style>
+.paper {
+  margin-bottom: 1em;
+}
 .paper-title {
-  display: inline;
-  font-size: 1em;
   font-weight: bold;
+  font-size: 1em;
 }
 .abstract-toggle {
   display: inline-block;
   margin-left: 10px;
-  font-size: 0.7em;
-  padding: 2px 5px;
+  font-size: 0.8em;
+  padding: 0 5px;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
   border-radius: 3px;
   cursor: pointer;
 }
 .coauthors {
-  display: block;
   font-size: 0.9em;
   font-style: italic;
-  margin-top: 5px;
+  margin-left: 10px;
 }
 .abstract {
   display: none;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 0.9em;
+  padding-left: 20px;
 }
 .abstract-checkbox {
   display: none;
@@ -66,9 +68,13 @@ author_profile: true
 
 ## Local Political Economy
 
-### Local Institutions and the Geographic Distribution of Public Goods: Evidence from Streetview
+<div class="paper">
+  <span class="paper-title">Local Institutions and the Geographic Distribution of Public Goods: Evidence from Streetview</span>
+</div>
 
-### Uncontested Elections Down the Ballot: Problems and Solutions
+<div class="paper">
+  <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
+</div>
 
 
 
