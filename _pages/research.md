@@ -10,8 +10,8 @@ author_profile: true
   margin-bottom: 1em;
 }
 .paper-title {
-  font-weight: bold;
-  font-size: 1em;
+  font-weight: 600;
+  font-size: 0.9em;
 }
 .abstract-toggle {
   display: inline-block;
@@ -43,7 +43,7 @@ author_profile: true
 }
 </style>
 
-## Work In Progress
+## _Work In Progress_
 
 ### Methodology
 
