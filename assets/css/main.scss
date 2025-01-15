@@ -39,3 +39,41 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+// Your custom styles
+.page__content h2 {
+    border-bottom: 1px solid #f2f3f3;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+  }
+  
+  .page__content h3 {
+    margin-top: 1.5em;
+  }
+  
+  .page__content h4 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  
+  details {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  details p {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-style: italic;
+  }
+  
+  em {
+    font-size: 0.9em;
+    color: #666;
+  }
