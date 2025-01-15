@@ -6,24 +6,28 @@ author_profile: true
 ---
 
 <style>
-h1 {
-  font-size: 1.5em;
+:root {
+  --base-font-size: 0.9rem;
 }
-h2 {
-  font-size: 1.3em;
+
+.page-content,
+.post-content,
+#main-content {
+  font-size: var(--base-font-size);
 }
-.paper {
-  margin-bottom: 1.5em;
-}
+
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.4em; }
+h3 { font-size: 1.2em; }
+
 .paper-title {
   font-weight: bold;
-  font-size: 0.9em;
   display: block;
 }
 .abstract-toggle {
   display: inline-block;
   margin-top: 0.3em;
-  font-size: 0.7em;
+  font-size: 0.8em;
   padding: 0 5px;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
@@ -32,7 +36,7 @@ h2 {
 }
 .coauthors {
   display: block;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-style: italic;
   margin-top: 0.3em;
 }
@@ -40,7 +44,7 @@ h2 {
   display: none;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding-left: 1em;
 }
 .abstract-checkbox {
