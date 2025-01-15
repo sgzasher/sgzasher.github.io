@@ -6,17 +6,24 @@ author_profile: true
 ---
 
 <style>
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.3em;
+}
 .paper {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 .paper-title {
   font-weight: bold;
-  font-size: 1em;
+  font-size: 0.9em;
+  display: block;
 }
 .abstract-toggle {
   display: inline-block;
-  margin-left: 10px;
-  font-size: 0.8em;
+  margin-top: 0.3em;
+  font-size: 0.7em;
   padding: 0 5px;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
@@ -24,16 +31,17 @@ author_profile: true
   cursor: pointer;
 }
 .coauthors {
-  font-size: 0.9em;
+  display: block;
+  font-size: 0.8em;
   font-style: italic;
-  margin-left: 10px;
+  margin-top: 0.3em;
 }
 .abstract {
   display: none;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 0.9em;
-  padding-left: 20px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 0.8em;
+  padding-left: 1em;
 }
 .abstract-checkbox {
   display: none;
@@ -55,6 +63,8 @@ author_profile: true
     This paper develops a practical and performant algorithm for estimating sharp bounds on principal strata direct effects. I extend work on attrition problems to provide a nonparametric estimator under conditional unconfoundedness and monotonicity, more tenable assumptions than needed in popular methods for direct effect estimation. The estimator learns nuisance parameters via random forests and then learns the debiasing correction terms directly via a neural network. This approach blends the advantages of kernel-based quantile regression methods while improving finite-sample performance relative to plug-in estimation of the correction terms. I demonstrate the performance of the algorithm in simulations and apply the bounds to revisit canonical mediation problems in political science.
   </div>
 </div>
+
+<!-- Rest of your content remains the same -->
 
 <div class="paper">
   <span class="paper-title">Trajectory Balancing: A General Reweighting Approach to Causal Inference with Time-Series Cross-Sectional Data</span>
