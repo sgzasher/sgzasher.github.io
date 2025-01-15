@@ -5,6 +5,39 @@ permalink: /research/
 author_profile: true
 ---
 
+<style>
+  .page__content h2 {
+    border-bottom: 1px solid #f2f3f3;
+    padding-bottom: 0.5em;
+    margin-top: 2em;
+  }
+  .page__content h3 {
+    margin-top: 1.5em;
+  }
+  .page__content h4 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  details {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  details p {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-style: italic;
+  }
+  .coauthors {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+  }
+</style>
+
 ## Work In Progress
 
 ### Methodology
@@ -17,10 +50,10 @@ author_profile: true
 </details>
 
 #### Trajectory Balancing: A General Reweighting Approach to Causal Inference with Time-Series Cross-Sectional Data
-*with Chad Hazlett and Yiqing Xu*
+<span class="coauthors">with Chad Hazlett and Yiqing Xu</span>
 
 #### Regression Discontinuity in Time: Theory and Minimax Estimation
-*with Ye Wang and Yiqing Xu*
+<span class="coauthors">with Ye Wang and Yiqing Xu</span>
 
 ### Local Political Economy
 
