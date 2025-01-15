@@ -17,6 +17,7 @@ author_profile: true
   .page__content h4 {
     margin-top: 1em;
     margin-bottom: 0.5em;
+    font-size: 1.2em;  /* Adjust this value as needed */
   }
   details {
     margin-top: 0.5em;
@@ -25,11 +26,13 @@ author_profile: true
   summary {
     cursor: pointer;
     font-weight: bold;
+    font-size: 0.9em;  /* Make the abstract button smaller */
   }
   details p {
     margin-top: 0.5em;
     margin-left: 1em;
     font-style: italic;
+    font-size: 0.9em;  /* Make the abstract text slightly smaller */
   }
   .coauthors {
     font-size: 0.9em;
@@ -60,7 +63,6 @@ author_profile: true
 #### Local Institutions and the Geographic Distribution of Public Goods: Evidence from Streetview
 
 #### Uncontested Elections Down the Ballot: Problems and Solutions
-
 
 <!--- 
 * Minimax Adjustments for Spatial Confounding _(with Apoorva Lal)_ 
