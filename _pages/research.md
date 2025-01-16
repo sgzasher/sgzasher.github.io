@@ -67,6 +67,11 @@ author_profile: true
   <span class="coauthors">with Ye Wang and Yiqing Xu</span>
 </div>
 
+<div class="paper">
+  <span class="paper-title">Minimax Adjustment for Geographic Confounding</span>
+  <span class="coauthors">with Apoorva Lal</span>
+</div>
+
 ### Local Political Economy
 
 <div class="paper">
