@@ -58,7 +58,7 @@ author_profile: true
 </div>
 
 <div class="paper">
-  <span class="paper-title">Trajectory Balancing: A General Reweighting Approach to Causal Inference with Time-Series Cross-Sectional Data</span>
+  <span class="paper-title">Trajectory Balancing</span>
   <span class="coauthors">with Chad Hazlett and Yiqing Xu</span>
 </div>
 
@@ -67,20 +67,28 @@ author_profile: true
   <span class="coauthors">with Ye Wang and Yiqing Xu</span>
 </div>
 
+<!--->
 <div class="paper">
   <span class="paper-title">Minimax Adjustment for Geographic Confounding</span>
   <span class="coauthors">with Apoorva Lal</span>
 </div>
+-->
 
 ### Local Political Economy
 
 <div class="paper">
-  <span class="paper-title">Local Institutions and the Geographic Distribution of Public Goods: Evidence from Streetview</span>
+  <span class="paper-title">Local Institutions and the Geographic Distribution of Public Goods: Evidence from Street View</span>
 </div>
 
 <div class="paper">
   <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
 </div>
+
+<!--->
+<div class="paper">
+  <span class="paper-title">Mobility and Accountability</span>
+</div>
+-->
 
 
 
