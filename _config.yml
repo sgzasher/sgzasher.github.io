@@ -12,7 +12,7 @@ title                    : "Samuel G.Z. Asher"
 title_separator          : "-"
 name                     : &name "S.G.Z. Asher"
 description              : &description "Ph.D. Student"
-url                      : https://sgzasher.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://sgzasher.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sgzasher/sgzasher.github.io"
 
