@@ -76,12 +76,18 @@ author_profile: true
 
 ### Local Political Economy
 
+<!--->
 <div class="paper">
   <span class="paper-title">Local Institutions and the Geographic Distribution of Public Goods: Evidence from Street View</span>
 </div>
+-->
 
 <div class="paper">
   <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
+</div>
+
+<div class="paper">
+  <span class="paper-title">Mobility and Accountability</span>
 </div>
 
 <!---
