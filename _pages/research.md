@@ -83,20 +83,16 @@ author_profile: true
 -->
 
 <div class="paper">
+  <span class="paper-title">The Effects of At-Large Elections on Local Policy: Evidence from School Boards</span>
+</div>
+
+<div class="paper">
   <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
 </div>
 
 <div class="paper">
   <span class="paper-title">Mobility and Accountability</span>
 </div>
-
-<!---
-<div class="paper">
-  <span class="paper-title">Mobility and Accountability</span>
-</div>
--->
-
-
 
 <!--- 
 * Minimax Adjustments for Spatial Confounding _(with Apoorva Lal)_
