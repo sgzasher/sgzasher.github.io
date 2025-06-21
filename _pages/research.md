@@ -61,10 +61,13 @@ author_profile: true
 }
 </style>
 
+<!---
 <div class="wip-header">
+  <hr>
   <h3>Work In Progress</h3>
   <hr>
 </div>
+-->
 
 ### Local Political Economy
 
