@@ -48,22 +48,16 @@ author_profile: true
   text-align: left;
 }
 .wip-header h3 {
-  display: inline-block;
-  margin: 0 0.4em 0 0;
+  margin: 0 0 0.25em 0;
   font-size: 1.1em;
   font-style: italic;
   font-weight: 500;
-  vertical-align: middle;
 }
 .wip-header hr {
-  display: inline-block;
-  width: 70%;
-  margin: 0;
   border: none;
   border-top: 1px solid #bbb;
-  vertical-align: middle;
-  position: relative;
-  top: -2px;
+  width: 100%;
+  margin: 0;
 }
 </style>
 
