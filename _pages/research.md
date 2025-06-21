@@ -69,6 +69,7 @@ author_profile: true
 </div>
 -->
 
+<hr>
 ### Local Political Economy
 
 <!---
