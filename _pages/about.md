@@ -11,7 +11,7 @@ redirect_from:
 
 I am a PhD student in Political Economy at the Stanford Graduate School of Business. I study political methodology and American politics.
 
-My research attempts to understand how elections and economic forces interact to shape the choices of officeholders in local government. My methods work designs new tools for observational causal inference. 
+My research attempts to understand how economic incentives and electoral institutions shape the choices of officeholders in local government. My methods work designs new tools for observational causal inference. 
 
 
 <!--- 

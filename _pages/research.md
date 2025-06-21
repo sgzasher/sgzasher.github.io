@@ -46,8 +46,38 @@ author_profile: true
 
 ## _Work In Progress_
 
+
+### Local Political Economy
+
+<!---
+<div class="paper">
+  <span class="paper-title">Local Institutions and the Geographic Distribution of Public Goods: Evidence from Street View</span>
+</div>
+-->
+
+
+<div class="paper">
+  <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
+</div>
+
+<div class="paper">
+  <span class="paper-title">The Effects of At-Large Elections: Evidence from School Boards</span>
+  <label for="abstract1" class="abstract-toggle">Abstract</label>
+  <input type="checkbox" id="abstract1" class="abstract-checkbox">
+  <div class="abstract">
+    A longstanding claim is that at-large elections dilute minority votes and therefore bias policy away from segregated minority populations. Do reforms to district-based systems deliver both descriptive and substantive representation? I answer this question by focusing on jurisdictions with a clear, narrowly defined policy domain: school boards. I study both districts quasi-randomly forced to reform in the wake of the California Voting Rights Act and districts that reformed voluntarily. To account for the low-N setting and potential selection bias, I rely on finite-sample randomization inference and frontier panel methods. I verify that legally coerced reforming boards able to draw majority-Hispanic areas see increases in Hispanic officeholding. However, I find no evidence of downstream policy changes. Moreover, in voluntarily reforming districts I find no evidence of changes to either descriptive or substantive representation. My results highlights the difficulty of turning reform into changes in legislator identities and incentives.
+  </div>
+</div>
+
+<!---
+<div class="paper">
+  <span class="paper-title">Mobility and Accountability</span>
+</div>
+-->
+
 ### Methodology
 
+<!---
 <div class="paper">
   <span class="paper-title">Automatic Partial Identification of Direct Effects under Conditional Unconfoundedness</span>
   <label for="abstract1" class="abstract-toggle">Abstract</label>
@@ -56,6 +86,7 @@ author_profile: true
     This paper develops a practical and performant algorithm for estimating sharp bounds on principal strata direct effects. I extend work on attrition problems to provide a nonparametric estimator under conditional unconfoundedness and monotonicity, more tenable assumptions than needed in popular methods for direct effect estimation. The estimator learns nuisance parameters via random forests and then learns the debiasing correction terms directly via a neural network. This approach blends the advantages of kernel-based quantile regression methods while improving finite-sample performance relative to plug-in estimation of the correction terms. I demonstrate the performance of the algorithm in simulations and apply the bounds to revisit canonical mediation problems in political science.
   </div>
 </div>
+-->
 
 <div class="paper">
   <span class="paper-title">Trajectory Balancing</span>
@@ -74,6 +105,10 @@ author_profile: true
 </div>
 -->
 
+<<<<<<< HEAD
+
+
+=======
 ### Local Political Economy
 
 <!---
@@ -93,6 +128,10 @@ author_profile: true
 <div class="paper">
   <span class="paper-title">Mobility and Accountability</span>
 </div>
+<<<<<<< Updated upstream
+=======
+>>>>>>> 9ca326ecb063d6ba188cc6c3c1163ff16adae6f9
+>>>>>>> Stashed changes
 
 <!--- 
 * Minimax Adjustments for Spatial Confounding _(with Apoorva Lal)_
