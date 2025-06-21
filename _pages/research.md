@@ -42,10 +42,35 @@ author_profile: true
 .abstract-checkbox:checked + .abstract {
   display: block;
 }
+.wip-header {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: left;
+}
+.wip-header h3 {
+  display: inline-block;
+  margin: 0 0.4em 0 0;
+  font-size: 1.1em;
+  font-style: italic;
+  font-weight: 500;
+  vertical-align: middle;
+}
+.wip-header hr {
+  display: inline-block;
+  width: 70%;
+  margin: 0;
+  border: none;
+  border-top: 1px solid #bbb;
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
 </style>
 
-## _Work In Progress_
-
+<div class="wip-header">
+  <h3>Work In Progress</h3>
+  <hr>
+</div>
 
 ### Local Political Economy
 
@@ -55,11 +80,6 @@ author_profile: true
 </div>
 -->
 
-
-<div class="paper">
-  <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
-</div>
-
 <div class="paper">
   <span class="paper-title">The Effects of At-Large Elections: Evidence from School Boards</span>
   <label for="abstract1" class="abstract-toggle">Abstract</label>
@@ -67,6 +87,10 @@ author_profile: true
   <div class="abstract">
     A longstanding claim is that at-large elections dilute minority votes and therefore bias policy away from segregated minority populations. Do reforms to district-based systems deliver both descriptive and substantive representation? I answer this question by focusing on jurisdictions with a clear, narrowly defined policy domain: school boards. I study both districts quasi-randomly forced to reform in the wake of the California Voting Rights Act and districts that reformed voluntarily. To account for the low-N setting and potential selection bias, I rely on finite-sample randomization inference and frontier panel methods. I verify that legally coerced reforming boards able to draw majority-Hispanic areas see increases in Hispanic officeholding. However, I find no evidence of downstream policy changes. Moreover, in voluntarily reforming districts I find no evidence of changes to either descriptive or substantive representation. My results highlights the difficulty of turning reform into changes in legislator identities and incentives.
   </div>
+</div>
+
+<div class="paper">
+  <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
 </div>
 
 <!---
@@ -105,33 +129,6 @@ author_profile: true
 </div>
 -->
 
-<<<<<<< HEAD
-
-
-=======
-### Local Political Economy
-
-<!---
-<div class="paper">
-  <span class="paper-title">Local Institutions and the Geographic Distribution of Public Goods: Evidence from Street View</span>
-</div>
--->
-
-<div class="paper">
-  <span class="paper-title">The Effects of At-Large Elections on Local Policy: Evidence from School Boards</span>
-</div>
-
-<div class="paper">
-  <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
-</div>
-
-<div class="paper">
-  <span class="paper-title">Mobility and Accountability</span>
-</div>
-<<<<<<< Updated upstream
-=======
->>>>>>> 9ca326ecb063d6ba188cc6c3c1163ff16adae6f9
->>>>>>> Stashed changes
 
 <!--- 
 * Minimax Adjustments for Spatial Confounding _(with Apoorva Lal)_
