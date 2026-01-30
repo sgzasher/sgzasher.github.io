@@ -88,8 +88,13 @@ author_profile: true
 </div>
 
 <div class="paper">
-  <span class="paper-title">Uncontested Elections Down the Ballot: Problems and Solutions</span>
+  <span class="paper-title">Exit Threats and Electoral Accountability in Local Government</span>
 </div>
+
+<div class="paper">
+  <span class="paper-title">Electoral Accountability with Mobile Residents</span>
+</div>
+
 
 <!---
 <div class="paper">
@@ -118,6 +123,15 @@ author_profile: true
 <div class="paper">
   <span class="paper-title">Regression Discontinuity in Time: Theory and Minimax Estimation</span>
   <span class="coauthors">with Ye Wang and Yiqing Xu</span>
+</div>
+
+<div class="paper">
+  <span class="paper-title">Adaptive Estimation for Panel Causal Inference Designs</span>
+  <span class="coauthors">with Apoorva Lal</span>
+</div>
+
+<div class="paper">
+  <span class="paper-title">Election Discontinuity Designs with Panel Data</span>
 </div>
 
 <!---
