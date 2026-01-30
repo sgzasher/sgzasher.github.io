@@ -95,6 +95,11 @@ author_profile: true
   <span class="paper-title">Electoral Accountability with Mobile Residents</span>
 </div>
 
+<div class="paper">
+  <span class="paper-title">Electoral Accountability with Mobile Residents</span>
+  <span class="coauthors">with Matthew Merrigan and Chenoa Yorgason</span>
+</div>
+
 
 <!---
 <div class="paper">
@@ -125,10 +130,12 @@ author_profile: true
   <span class="coauthors">with Ye Wang and Yiqing Xu</span>
 </div>
 
+<!---
 <div class="paper">
   <span class="paper-title">Adaptive Estimation for Panel Causal Inference Designs</span>
   <span class="coauthors">with Apoorva Lal</span>
 </div>
+-->
 
 <div class="paper">
   <span class="paper-title">Election Discontinuity Designs with Panel Data</span>
