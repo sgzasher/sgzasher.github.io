@@ -138,7 +138,7 @@ author_profile: true
 -->
 
 <div class="paper">
-  <span class="paper-title">Election Discontinuity Designs with Panel Data</span>
+  <span class="paper-title">Close Election Designs with Panel Data</span>
 </div>
 
 <!---
