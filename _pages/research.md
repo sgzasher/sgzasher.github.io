@@ -96,7 +96,7 @@ author_profile: true
 </div>
 
 <div class="paper">
-  <span class="paper-title">Electoral Accountability with Mobile Residents</span>
+  <span class="paper-title">Municipal Procurement and the Returns to Campaign Conributions </span>
   <span class="coauthors">with Matthew Merrigan and Chenoa Yorgason</span>
 </div>
 
