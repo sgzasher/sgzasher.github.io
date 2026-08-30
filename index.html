@@ -166,6 +166,7 @@
         .venue {
             font-size: 0.85em;
             color: #777;
+            font-style: italic;
         }
 
         .abstract-toggle {
@@ -179,6 +180,13 @@
 
         .abstract-toggle:hover {
             color: #9a3548;
+        }
+
+        .paper-link {
+            display: inline-block;
+            font-size: 0.8em;
+            margin-top: 2px;
+            margin-left: 12px;
         }
 
         .abstract-toggle .arrow {
@@ -297,6 +305,27 @@
             <h2>Works in Progress</h2>
 
             <div class="paper">
+                <div class="paper-title">Policy Agendas, Participation, and Nationalization in American Local Government</div>
+                <div class="coauthors">with Gregory J. Martin</div>
+                <div class="venue">Presented at LPEC 2026</div>
+                <div class="abstract-toggle" onclick="toggleAbstract(this)">
+                    <span class="arrow">&#9654;</span> Abstract
+                </div>
+                <a class="paper-link" href="papers/poster_city_only.pdf">Poster &#8599;</a>
+                <div class="abstract-text">
+                    City councils shape land use, housing, policing, infrastructure, taxation, public services, and the everyday administration of local government. Yet despite their importance, we know comparatively little about what city councils actually do: what issues appear on their agendas, which items generate conflict versus consensus, and whether local policymaking has become increasingly aligned with national party programs. Council meetings are also the site of an important form of citizen participation, in public comment periods. While scholars have devoted considerable effort to measuring who participates in public comment, we know relatively little about which issues generate relatively broad or narrow participation.
+
+                    <br><br>
+
+                    This project introduces a new dataset of agendas and minutes for 205,619 legislative meetings, spanning 1997-2025, in 242 cities collectively governing more than 21% of the U.S. population. Using these records, we characterize the legislative content of city councils across a broad national sample. First, we describe the composition of local legislative agendas: what councils vote on, how policy attention varies across cities and over time, and which types of agenda items are routine, unanimous, or contested. Second, we study public participation in city council meetings by identifying which agenda items generate public comment, and how participation varies by policy domain. For planning and zoning matters, we further examine where in the city projects are located and how public engagement is related to political and population characteristics of the project location. Third, we investigate whether the policy and discussion content of city council meetings has become more nationalized over time, asking whether councils are increasingly considering agenda items that align with national party programs.
+
+                    <br><br>
+
+                    These analyses provide a systematic account of municipal legislative activity at scale. The project offers new evidence on how American cities allocate policy attention, how residents engage with local governments, and how national political conflict enters the everyday work of municipal governance.
+                </div>
+            </div>
+
+            <div class="paper">
                 <div class="paper-title">Accountability in Local Government: Exit, Voice, and the Control of Politicians</div>
                 <div class="abstract-toggle" onclick="toggleAbstract(this)">
                     <span class="arrow">&#9654;</span> Abstract
@@ -308,6 +337,7 @@
 
             <div class="paper">
                 <div class="paper-title">The Effects of At-Large Elections: Evidence from School Boards</div>
+                <div class="venue">Presented at LPEC 2026 (poster) and APSA 2026</div>
                 <div class="abstract-toggle" onclick="toggleAbstract(this)">
                     <span class="arrow">&#9654;</span> Abstract
                 </div>
@@ -318,6 +348,7 @@
 
             <div class="paper">
                 <div class="paper-title">Honest Extrapolation in Regression Discontinuity Designs with Covariates</div>
+                <div class="venue">Presented at PolMeth 2026</div>
                 <div class="abstract-toggle" onclick="toggleAbstract(this)">
                     <span class="arrow">&#9654;</span> Abstract
                 </div>
@@ -329,6 +360,7 @@
             <div class="paper">
                 <div class="paper-title">Trajectory Balancing: Identification and Bias in Pre-Treatment Balancing Estimators</div>
                 <div class="coauthors">with Chad Hazlett and Yiqing Xu</div>
+                <div class="venue">Presented at PolMeth 2025</div>
                 <div class="abstract-toggle" onclick="toggleAbstract(this)">
                     <span class="arrow">&#9654;</span> Abstract
                 </div>
@@ -352,7 +384,7 @@
 
     <script>
         function toggleAbstract(el) {
-            const text = el.nextElementSibling;
+            const text = el.closest('.paper').querySelector('.abstract-text');
             el.classList.toggle('open');
             text.classList.toggle('show');
         }
