@@ -147,6 +147,9 @@
         .paper-title {
             font-weight: 600;
             font-size: 0.95em;
+            /* Let long titles run into the right margin rather than wrap */
+            width: max-content;
+            max-width: min(900px, calc(50vw + 300px));
         }
 
         .paper-title a {
@@ -249,6 +252,11 @@
 
             .header-text h1 {
                 font-size: 2rem;
+            }
+
+            .paper-title {
+                width: auto;
+                max-width: 100%;
             }
         }
     </style>
