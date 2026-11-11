@@ -373,6 +373,17 @@
                     In longitudinal settings, researchers often attempt to leverage pre-treatment outcome trajectories to adjust for confounding and isolate the effect of an intervention. One widely used strategy in this context is the difference-in-differences (DID) design. While recent advances have improved DID estimators, their validity still hinges on the assumed absence of time-varying confounders, which is often infeasible. Synthetic control methods offer a promising alternative by constructing weighted combinations of control units to approximate treated outcomes. This can account at least partially for time-varying confounders of certain forms. However, the permissible forms of confounding, and thus the identification assumptions underlying these approaches, remain poorly understood, especially in finite samples. Our first contribution aims to clarify and extends a theory for synthetic control and related weighting estimators. Working in a broad latent ignorability framework, we characterize the multiple sources of bias that arise, including when these latent variables are only partially captured by finite pre-treatment outcomes, in finite time and sample size. Second, building on this framework, we propose an estimator that balances pre-treatment outcome trajectories using kernel-based methods. We implement this approach in the open-source R package <em>tjbal</em>.
                 </div>
             </div>
+
+            <div class="paper">
+                <div class="paper-title">Mediation Analysis Without Sequential Ignorability: Estimating Bounds on Principal Stratum Direct Effects</div>
+                <div class="venue">Presented at PolMeth 2024</div>
+                <div class="abstract-toggle" onclick="toggleAbstract(this)">
+                    <span class="arrow">&#9654;</span> Abstract
+                </div>
+                <div class="abstract-text">
+                    Dominant approaches to mediation analysis in political science point-identify estimands by assuming that no unobserved confounders correlate with both the mediator and the outcome. This assumption is not guaranteed by any design that influences only the treatment and is typically untenable. I study alternative estimands that are partially identified without such assumptions: direct effects among units whose mediator is not moved by the treatment. I present a general method for estimating covariate-tightened bounds on these estimands, also allowing researchers to state restrictions on how the mediator responds to treatment. The method applies to binary and other discrete-valued mediators, including ordinal mediators important to applied practice. Simulations show the intervals perform well in samples typical of survey experiments. Reanalyzing published mediation analyses in political science, I find that many mediation claims do not survive without the confounding assumption, and I show which claims the data do support under alternative restrictions.
+                </div>
+            </div>
         </section>
 
         <!-- Public Goods -->
